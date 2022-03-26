@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>POKÉDEX - LAUNCH X</title>
+    <link rel="icon" href="media/icon.jpg" />
+    <link rel="stylesheet" href="pokEstilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <img src="media/pokemon.png" alt="" class="pokemon" />
+    <br />
+
+    <img src="media/pokedex.png" class="pokedexImagen" alt="" />
+
+    <div class="pokedexTop">
+      <img src="media/pokeball.png" alt="pokeball" id="pokeImg" />
+      <h2 id="name" class="name">Pokémon</h2>
+      <div class="info" id="info">
+        <p class="habilidad">Habilidades:</p>
+        <p id="abilitie" class="habilidades">****</p>
+        <p id="abilitie2" class="habilidades">****</p>
+        <p class="habilidad">Movimientos:</p>
+        <p id="movimiento0" class="habilidades">****</p>
+        <p id="movimiento1" class="habilidades">****</p>
+        <p id="movimiento2" class="habilidades">****</p>
+        <p id="movimiento3" class="habilidades">****</p>
+      </div>
+    </div>
+
+    <div class="pokedexBottom">
+      <input
+        type="text"
+        placeholder="Busca un pokémon"
+        id="pokeName"
+        name="pokeName"
+        class="pokeName"
+      />
+      <h2 class="experiencia">Experiencia en combate:</h2>
+      <p class="exp" id="experienciaCombate">***</p>
+      <br />
+      <h2 class="experiencia">Altura:</h2>
+      <p class="exp" id="altura">***</p>
+      <h2 class="experiencia">Peso:</h2>
+      <p class="exp" id="peso">***</p>
+      <br />
+      <h2 class="experiencia">Ataque:</h2>
+      <p class="exp" id="ataque">***</p>
+      <h2 class="experiencia">Hp:</h2>
+      <p class="exp" id="hp">***</p>
+      <br />
+      <h2 class="experiencia">Defensa:</h2>
+      <p class="exp" id="defensa">***</p>
+      <h2 class="experiencia">Velocidad:</h2>
+      <p class="exp" id="velocidad">***</p>
+      <button onclick="fetchPokemon()" class="changeButton">
+        Cambiar Pokémon
+      </button>
+    </div>
+
+    <audio controls autoplay class="musica">
+      <source src="media/pokemon.mp3" type="audio/mp3" />
+      Tu navegador no soporta audio HTML5.
+    </audio>
+
+    <footer>
+      <script src="poke.js"></script>
+    </footer>
+  </body>
+</html>

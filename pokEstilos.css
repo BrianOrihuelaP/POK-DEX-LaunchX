@@ -1,0 +1,107 @@
+* {
+  font-family: "Space Mono", monospace;
+}
+
+body {
+  background-image: url("media/background.jpg");
+  background-repeat: repeat-y;
+  background-size: 100%;
+  
+}
+.pokemon{
+  width: 30%;
+  margin-left:32%;
+  margin-bottom: 40px;
+}
+.pokedexImagen{
+    position: absolute;
+    width: 850px;
+    margin-left: 20px;
+    margin-top: -30px;
+}
+
+.pokedexTop{
+    /* border: solid 2px; */
+    position: absolute;
+    width: 260px;
+    height: 200px;
+    margin-left: 290px;
+    margin-top:14px;
+}
+
+.pokedexTop img{
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.pokedexBottom{
+  /* border: 2px solid; */
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  margin-left: 280px;
+  margin-top: 346px;
+}
+
+.pokeName{
+  border-radius: 10px;
+  width: 260px;
+  border: 2px dashed rgb(163, 46, 46);
+  background-color: rgb(221, 80, 14);
+  color: white;
+  margin-left: 22px;
+  text-align: center;
+}
+
+.name{
+  font-size: 16px;
+  margin-left: 40px;
+  font-weight: 300;
+  color: white;
+}
+.pokeName, .changeButton, .info{
+  font-size: 12px;
+  color: white;
+}
+
+.changeButton{
+  border-radius: 10px;
+  margin-top: -6px;
+  width: 56%;
+  margin-left: 70px;
+  background-color: orange;
+}
+
+.experiencia, .exp{
+  display: inline-block;
+  font-size: 12px;
+}
+
+.experiencia{
+  margin-left: 20px;
+}
+
+.info{
+  /* border: 2px solid; */
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 160px;
+}
+
+.habilidad{
+  font-weight: 500;
+  color: rgb(228, 192, 77);
+}
+
+.habilidades{
+  margin-top: -10px;
+  font-size: 10px;
+  font-style: italic;
+}
+
+.musica{
+  width: 14%;
+  visibility: hidden;
+}
